@@ -30,7 +30,7 @@ search.addEventListener("click", () => {
       const description = document.querySelector(".weather-box .description");
       const humidity = document.querySelector(".weather-details .humidity span");
       const wind = document.querySelector(".weather-details .wind span");
-      
+       
       switch (json.weather[0].main) {
         case "Clear":
           image.src = "images/clear.png";
